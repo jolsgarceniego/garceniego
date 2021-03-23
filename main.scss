@@ -81,7 +81,7 @@ body {
   */
 .figure {
   position: relative;
-  width: 360px; /* can be omitted for a regular non-lazy image */
+  width: 100%; /* can be omitted for a regular non-lazy image */
   max-width: 100%;
 }
 .figure img.image-hover {
