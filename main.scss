@@ -71,7 +71,10 @@ body {
 .comment {
   color: $comment;
 }
-
+.typewriter {
+  color: #fff;
+  text-decoration: none;
+}
 .code-1 {
   z-index: 1;
   position: relative;
