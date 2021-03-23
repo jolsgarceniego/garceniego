@@ -72,7 +72,10 @@ body {
   color: $comment;
 }
 .typewrite {
-  cursor: none;
+  cursor: default;
+  &:hover {
+    text-decoration: none;
+  }
 }
 .typewriter {
   color: #fff;
