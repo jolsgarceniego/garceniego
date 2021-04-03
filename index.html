@@ -12,12 +12,22 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<<<<<<< HEAD
+=======
+    <!-- Favicons -->
+    <!-- <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180"> -->
+    <link rel="icon" href="Garceniego.jpg" sizes="32x32" type="image/png">
+    <link rel="icon" href="Garceniego.jpg" sizes="16x16" type="image/png">
+    <!-- <link rel="manifest" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon.ico"> -->
+>>>>>>> 71ea2c45bdc30de2cc13834a6d2a6992ffcd54b2
     <meta name="theme-color" content="#7952b3">
 
     <!-- Custom styles for this template -->
     <link href="main.min.css" rel="stylesheet">
   </head>
-  <body class="text-center text-white h-100" data-spy="scroll" data-target=".nav" data-offset="50">
+  <body class="text-white h-100" data-spy="scroll" data-target=".nav" data-offset="50">
 
     <header class="container navbar-dark mb-auto fixed-top py-3">
       <div class="d-flex justify-content-between align-items-center">
@@ -29,23 +39,32 @@
         </nav>
       </div>
     </header>
-    <div class="padding"></div>
-    
-    
 
       <div id="home" class="container align-items-center d-flex w-100 h-100 mx-auto">
 
-        <main class="px-3 col-md-8 mx-auto">
-          <div class="row">
-            <div class="col-lg-5">
-              <img src="Garceniego.jpg" alt="" class="w-100 profile">
-            </div>
-            <div class="col-lg-7 text-md-left text-center">
-              <span>Home/></span>
-              <div>
-                <p>Hey, I'm <span>John Carlo A. Garceniego</span></p>
-                <p>A Web Developer with hands-on experience in both frontend and backend development</p>
-                <p>Lives in San Jose Del Monte, Bulacan</p>
+        <main class="px-3 mx-auto">
+          <div class="p-3 text-white-50">Home/></div >
+          <div class="col-md-8 mx-auto">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <!-- <img src="Garceniego.jpg" alt="" class="w-100 profile"> -->
+                <div class="figure">
+                  <img class="Sirv image-main" data-src="Garceniego.jpg">
+                  <img class="Sirv image-hover" data-src="Garceniego-2.jpg">
+                </div>
+              </div>
+              <div class="col-lg-7 text-md-left text-center">
+                <div>
+                  <p>Hey, I'm <span>John Carlo A. Garceniego</span></p>
+                  <p class="mb-0">A Web Developer with hands-on experience in </p>
+                  <p>
+                    <a href="" class="typewrite text-white" data-period="2000"
+                      data-type='[ "Front-end Development", "Back-end Development" ]'>
+                      <span class="wrap typewriter"></span>
+                    </a>
+                  </p>
+                  <p>Lives in San Jose Del Monte, Bulacan</p>
+                </div>
               </div>
             </div>
           </div>
@@ -53,54 +72,145 @@
 
       </div>
 
-      <div id="about" class="container bg-dark align-items-center d-flex w-100 h-100 mx-auto">
+      <div id="about" class="bg-dark w-100 p-5">
+        <div id="about" class="container bg-dark align-items-center d-flex w-100 mx-auto">
 
         <main class="px-5">
           <div class="code-wrap text-left">
-            <span>About/></span>
+            
+            <span class="text-white-50">About/></span>
             <div data-attribute="01" class="code-1">
               <div class="d-inline class">class</div>
               <span class="propName"> John Carlo Garceniego</span>
               <span class="yellow"> {</span>
             </div>
             <div data-attribute="02" class="code-1">
+              <div class="dot d-inline">..</div>
               <div class="d-inline class">function</div>
-              <span class="propName">__constructor</span>
-              <span class="bracket">() {</span>
+              <span class="propName">__constructor</span><span class="bracket">( ) {</span>              
             </div>
             <div data-attribute="03" class="code-1">
+              <div class="dot d-inline">....</div>
               <div class="d-inline class">$this</div>-><span class="var">nickName</span> = <span class="string">'Jols'</span>;
+            </div>            
+            <div data-attribute="04" class="code-1">
+              <div class="dot d-inline">....</div>
+              <div class="d-inline class">$this</div>-><span class="var">dayOfNBirthTimestamp</span> = <span class="string">766108800</span>; <span class="comment">// April 12 1994</span>
             </div>
-                
-                $this->dayOfNBirthTimestamp =  766108800; // April 12 1994
-                $this->email = 'johncarlogarceniego@gmail.com';
-              }
+            <div data-attribute="05" class="code-1">
+              <div class="dot d-inline">....</div>
+              <div class="d-inline class">$this</div>-><span class="var">email</span> = <span class="string">'johncarlogarceniego12@gmail.com'</span>;
+            </div>
+            <div data-attribute="06" class="code-1">
+              <div class="dot d-inline">..</div>
+              <span class="bracket">}</span>
+            </div>
+              
+            <div data-attribute="07" class="code-1">
+              <div class="dot d-inline">..</div>
+              <div class="d-inline class">function</div>
+              <span class="propName">workExperience</span><span class="bracket">( ) {</span>            
+            </div>
+            <div data-attribute="08" class="code-1">
+              <div class="dot d-inline">....</div>
+              <span class="bracket">return</span> <span class="array">array</span> <span class="var">(</span>
+            </div>
+            <div data-attribute="09" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'2019-now'</span> => <span class="string">'Web Developer @ Siamese Graphics Desing Studio'</span>,
+            </div>
+            <div data-attribute="10" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'2018'</span> => <span class="string">'Talent Acquisition Assistant @ Convergys (OJT)'</span>,
+            </div>
+            <div data-attribute="11" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'2012-2015'</span> => <span class="string">'Technician @ Contact Live Photography'</span>,
+            </div>
+            <div data-attribute="12" class="code-1">
+              <div class="dot d-inline">....</div>
+              <span class="var">)</span>;
+            </div>
+            <div data-attribute="13" class="code-1">
+              <div class="dot d-inline">..</div>
+              <span class="bracket">}</span>;
+            </div>
 
-              function workExperience() {
-                return array(
-                  '2019-now' => 'Web Developer @ Siamese Graphics Desing Studio',
-                  '2018' => 'Talent Acquisition Assistant @ Convergys (OJT)',
-                  '2012-2015' => 'Technician @ Contact Live Photography',
-                );
-              }
+            <div data-attribute="14" class="code-1">
+              <div class="dot d-inline">..</div>
+              <div class="d-inline class">function</div>
+              <span class="propName">education</span><span class="bracket">( ) {</span>
+            </div>
+            <div data-attribute="15" class="code-1">
+              <div class="dot d-inline">....</div>
+              <div class="bracket d-inline">return </div><span class="array">array </span><span class="var">(</span>
+            </div>
+            <div data-attribute="16" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'2015-2018'</span> => <span class="string">'AMA Computer College - Bachelor of Science in Computer Science'</span>,
+            </div>
+            <div data-attribute="17" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'2010-2012'</span> => <span class="string">'AMA Computer Learning Center - Diploma in Software Development'</span>,
+            </div>
+            <div data-attribute="18" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'2005-2010'</span> => <span class="string">'St. Joseph the Worker Community School - High School'</span>,
+            </div>
+            <div data-attribute="19" class="code-1">
+              <div class="dot d-inline">....</div>
+              <span class="var">)</span>;
+            </div>
+            <div data-attribute="20" class="code-1">
+              <div class="dot d-inline">..</div>
+              <span class="bracket">}</span>;
+            </div>
 
-              function education() {
-                return array(
-                  '2015-2018' => 'AMA Computer College - Bachelor of Science in Computer Science',
-                  '2010-2012' => 'AMA Computer Learning Center - Diploma in Software Development',
-                  '2005-2010' => 'St. Joseph the Worker Community School - High School'
-                );
-              }
-
-              function skills() {
-                return array(
-                  'HTML/CSS', 'SASS', 'jQuery', 'JavaScript', 'AJAX/JSON', 'Bootstrap Design', 'PHP', 'MySQL', 'WordPress', 'Laravel', 'React', 'Photoshop', 'Adobe XD'
-                )
-              }
-            }
+            <div data-attribute="21" class="code-1">
+              <div class="dot d-inline">..</div>
+              <div class="d-inline class">function</div>
+              <span class="propName">skills</span><span class="bracket">( ) {</span>
+            </div>
+            <div data-attribute="22" class="code-1">
+              <div class="dot d-inline">....</div>
+              <span class="bracket">return</span> <span class="array">array<span class="var">(</span></span>
+            </div>
+            <div data-attribute="23" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'HTML/CSS'</span>,
+              <span class="string">'SASS'</span>,
+              <span class="string">'jQuery'</span>,
+              <span class="string">'JavaScript'</span>,
+              <span class="string">'AJAX/JSON'</span>,
+              <span class="string">'Bootstrap Design'</span>,
+            </div>
+            <div data-attribute="24" class="code-1">
+              <div class="dot d-inline">......</div>
+              <span class="string">'PHP'</span>,
+              <span class="string">'MySQL'</span>,
+              <span class="string">'WordPress'</span>,
+              <span class="string">'Laravel'</span>,
+              <span class="string">'React'</span>,
+              <span class="string">'Photoshop'</span>,
+              <span class="string">'Adobe XD'</span>,
+              <span class="typing"></span>
+            </div>
+            <div data-attribute="25" class="code-1">
+              <div class="dot d-inline">....</div>
+              <span class="var">)</span>;
+            </div>
+            <div data-attribute="26" class="code-1">
+              <div class="dot d-inline">..</div>
+              <span class="bracket">}</span>
+            </div>
+            <div data-attribute="27" class="code-1">
+              <span class="bracket">}</span>
+            </div>
+            
           </div>
         </main>
 
+      </div>
       </div>
 
       <div id="contact" class="container align-items-center d-flex w-100 h-100 mx-auto">
@@ -116,13 +226,15 @@
       </div>
 
 
-    <footer class="mt-auto text-white-50">
+    <!-- <footer class="mt-auto text-white-50 text-center">
       <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-    </footer>
+    </footer> -->
     
- 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+  <script src="https://use.fontawesome.com/b3c1a01251.js"></script>
+  <script src="main.js"></script>
   </body>
 </html>
